@@ -1,1 +1,10 @@
-# GWB
+# Gradients without Backpropagation
+This repository contains an implementation of the paper [Gradients without backpropagation](https://arxiv.org/abs/2202.08587). 
+
+## Description
+For a better understanding of the mathematical concepts covered, we recommend first viewing the file `prerequisites.ipynb`.
+
+## License
+This project is licensed under the MIT License
+
+Copyright (c) 2023 Luigi Gallo
