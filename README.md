@@ -6,6 +6,9 @@ For a better understanding of the mathematical concepts covered, we recommend fi
 
 After understanding the mathematical concepts, we recommend proceeding with `fwdgrad.ipynb`: in this notwbook, the Forward Gradient Descent (FGD) algorithm is implemented on some known functions and on a convolutional network. For the convolutional network, the MNIST dataset have been used. In addition, there is also a comparison of model training using SDG and backpropagation.
 
+### Results
+Compared with the results reported in the paper, no improvement was found in the execution time of the forward gradient descent algorithm. Although the results on losses are about the same, backpropagation still turns out to be faster in execution than forward gradient.
+
 ## Installation
 Implemented in [Python3](https://www.python.org/) using [Pytorch](https://pytorch.org/). 
 Required packages: [Matplotlib](https://matplotlib.org/), [Numpy](https://numpy.org/), Pytorch(https://pytorch.org/). 
@@ -24,6 +27,7 @@ All the references can also be find inside the python notebooks:
 
 ## License
 ![Build Status](https://img.shields.io/github/license/luigi-ga/GradientsWithousBackpropagation)
+
 This project is licensed under the MIT License
 
 ## Authors
